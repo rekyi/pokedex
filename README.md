@@ -16,6 +16,8 @@
 
 ---
 
+![Pokédex card grid with detail view](assets/images/readme.webp)
+
 ## About
 
 A Pokédex built with plain HTML, CSS and JavaScript – no framework, no build step. Every Pokémon is rendered as a card in the style of the trading card game, loaded on demand from the [PokéAPI](https://pokeapi.co). Clicking a card opens a detailed holographic view with types, evolution stage and attacks.
