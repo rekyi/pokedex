@@ -1,3 +1,5 @@
+const INITIAL_LOADER_DELAY_MS = 1500;
+
 function prepareLoadingUI() {
   const loadingDiv = document.getElementById("loading");
   if (currentOffset === 0) {
@@ -13,7 +15,7 @@ async function getPokemonData() {
   isLoading = true;
   prepareLoadingUI();
   try {
-    await delay(1500);
+    if (currentOffset === 0) await delay(INITIAL_LOADER_DELAY_MS);
     await loadNextBatch();
   } catch (error) {
     console.error(error);
