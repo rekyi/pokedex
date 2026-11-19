@@ -88,9 +88,8 @@ An internet connection is required, as all Pokémon data is loaded live from the
 
 - Pokémon data and sprites: [PokéAPI](https://pokeapi.co)
 - Loading animation: [Pokémon Showdown](https://play.pokemonshowdown.com)
-- Built as part of the frontend developer training at [Developer Akademie](https://developerakademie.com)
 
-This is a non-commercial learning project and is not affiliated with Nintendo, Game Freak or The Pokémon Company. Pokémon and all related names are trademarks of their respective owners.
+A non-commercial learning project, built to practise asynchronous JavaScript, working with REST APIs and rendering dynamic content. It is not affiliated with Nintendo, Game Freak or The Pokémon Company. Pokémon and all related names are trademarks of their respective owners.
 
 ## Contact
 
